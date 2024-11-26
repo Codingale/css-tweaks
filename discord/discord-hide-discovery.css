@@ -1,0 +1,13 @@
+/* "new" (11/23/24) discover footer */
+nav[aria-label="Servers sidebar"] div[class*="footer"],
+/* discover footer */
+ul[data-list-id="guildsnav"] > div[class^="footer"]
+{
+    display: none; /* hide it */
+}
+
+/* fix for floating unreads, may be misplaced on some displays, please file an issue if it's not working */
+div[class*="unreadMentionsIndicatorBottom"]
+{
+    bottom: 10px !important;
+}

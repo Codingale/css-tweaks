@@ -1,0 +1,5 @@
+li[role=listitem]:has(a[href="/store"]),
+li[role=listitem]:has(a[href="/shop"])
+{
+    display: none;
+}

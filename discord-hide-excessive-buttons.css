@@ -1,0 +1,5 @@
+/* note this allows Vencord buttons to persist, adjust more QuickCSS on your own to hide it */
+.expression-picker-chat-input-button:not(.vc-chatbar-button, :last-child), button[aria-label="Send a gift"]
+{
+    display: none;
+}
