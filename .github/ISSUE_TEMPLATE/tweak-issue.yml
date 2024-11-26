@@ -1,0 +1,61 @@
+name: Tweak Issue Report
+description: Report an issue with a tweak.
+title: "[Tweak Issue]: "
+labels: ["bug", "tweak"]
+projects: []
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report an issue with a tweak! Please fill out the details below to help us address the problem effectively.
+  - type: dropdown
+    id: tweak-broken
+    attributes:
+      label: What tweak is broken?
+      description: Select the tweak that is experiencing issues.
+      options:
+        - Store Tweaks
+        - Discovery
+        - ChatBox Tweaks
+    validations:
+      required: true
+  - type: dropdown
+    id: browser-client
+    attributes:
+      label: Browser / Client
+      description: What browser or client are you using? (e.g., Vencord, Stylus, BetterDiscord, etc)
+      options:
+        - Vencord
+        - Stylus
+        - BetterDiscord
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: worked-before
+    attributes:
+      label: Did it work before?
+      description: Check the box if the tweak was working before this issue occurred.
+      options:
+        - label: Yes, it worked before.
+          required: true
+  - type: dropdown
+    id: discord-branch
+    attributes:
+      label: Are you on PTB / Canary?
+      description: If applicable, specify whether you're on PTB or Canary builds.
+      options: 
+        - Stable / Default
+        - Canary
+        - PTB
+    validations:
+      required: false
+  - type: textarea
+    id: quickcss-file
+    attributes:
+      label: Your current QuickCSS / File
+      description: Paste your current QuickCSS or upload a file for analysis (optional).
+      placeholder: Paste QuickCSS or mention file path here.
+    validations:
+      required: false

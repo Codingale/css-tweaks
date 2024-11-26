@@ -1,6 +1,8 @@
 # css-tweaks
 A collection of CSS tweaks I use for Discord and other websites.
 
+I made this after people asked for me to update my tweak on Reddit, from this [thread](https://www.reddit.com/r/discordapp/comments/1ev6f4d/how_to_disable_discover_web_version_of_discord/)
+
 If there's any issues, please file an [issue](https://github.com/Codingale/css-tweaks/issues/new/choose).
 
 ## Usage
