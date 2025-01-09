@@ -28,5 +28,10 @@ Hides the excessive buttons (Gift, Gifs, Stickers, etc) in the chat bar. Please 
 @import url('https://raw.githubusercontent.com/Codingale/css-tweaks/refs/heads/main/discord/discord-hide-excessive-buttons.css');
 ```
 
+Hides the App Launcher from the chat area
+```css
+@import url('https://raw.githubusercontent.com/Codingale/css-tweaks/refs/heads/main/discord/discord-hide-text-applauncher.css');
+```
+
 [stylus]: https://github.com/openstyles/stylus
 [vencord]: https://vencord.dev/
