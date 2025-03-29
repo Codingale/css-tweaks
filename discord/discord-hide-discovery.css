@@ -1,5 +1,7 @@
+/* they're really going at it eh (3/29/25) */
+.circleIconButton__5bc7e.discoveryIcon_ef3116,
 /* new "new" (3/25/25) discover footer */
-div[class^="itemsContainer"] > div > div[class^="listItem"]:nth-child(5)
+div[class^="itemsContainer"] > div > div[class^="listItem"]:nth-child(5),
 /* "new" (11/23/24) discover footer */
 nav[aria-label="Servers sidebar"] div[class*="footer"],
 /* discover footer */
